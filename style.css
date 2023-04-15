@@ -1,0 +1,55 @@
+
+@font-face {
+    font-family: "WrestleMania";
+    src: url("/lib/WRESTLEMANIA.ttf") format("truetype");
+  }
+
+body{
+    font-family: Roboto,sans-serif;
+    background-color: #ffffff;
+   
+}
+
+.navbar{
+    background-color: rgb(55, 56, 150);
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #c0c0c0;
+    color: rgb(55, 56, 150);
+}
+
+#cabecalho .nav .nav-link,.navbar-brand,.navbar-brand:hover,.nav-cardapio .nav-link.active:hover{
+    color: #fff;
+}
+
+.navbar-toggler{
+    background-color: #ffffff;
+}
+
+.section-title{
+    font-family: WrestleMania,sans-serif;
+    font-size: 42px;
+    color: #c0c0c0;
+}
+
+.carousel-item img {
+    height: 600px;
+}
+.text-colored{
+    color: rgb(55, 56, 150);
+}
+
+.section-title{
+    text-align: center;
+}
+
+.img-lutas{
+    height: 230px;
+}
+
+@media(max-width:767px){
+    .carousel-item img{
+        height: 280px;
+    }
+}
